@@ -1,0 +1,139 @@
+﻿<Window x:Class="MusicPocketBook.PresentationLayer.Views.BaseView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MusicPocketBook.PresentationLayer.Views"
+        xmlns:viewModels ="clr-namespace:MusicPocketBook.BusinessLayer.ViewModels"        
+        mc:Ignorable="d"             
+        Width="525"
+        Height="350"
+        Background="WhiteSmoke">
+
+    <Window.DataContext>
+        <viewModels:PocketBookViewModel/>
+    </Window.DataContext>
+
+
+    <Window.Resources>
+
+        <DataTemplate DataType="{x:Type viewModels:PocketBookViewModel}">
+            <local:PocketBookView/>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type viewModels:KeyGenViewModel}">
+            <local:KeyGenView/>
+        </DataTemplate>
+
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="Width" Value="300"/>
+            <Setter Property="Height" Value="75"/>
+            <Setter Property="FontFamily" Value="null"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="FontWeight" Value="Thin"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="Foreground" Value="RoyalBlue"/>
+
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background">
+                        <Setter.Value>
+                            <SolidColorBrush Color="Red"/>
+                        </Setter.Value>
+                    </Setter>
+                    <Setter Property="Foreground" Value="White"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+
+
+    <DockPanel>
+        <Border DockPanel.Dock="Left" BorderBrush="Black" BorderThickness="0,0,1,0" Width="75">
+            <ItemsControl ItemsSource="{Binding PageViewModels}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Button Content="{Binding Name}"
+                                Command="{Binding DataContext.ChangePageCommand, RelativeSource={RelativeSource AncestorType={x:Type Window}}}"
+                                CommandParameter="{Binding }"
+                                Margin="2,5"
+                                Height="35"/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </Border>
+        <ContentControl Content="{Binding CurrentPageViewModel}" />
+    </DockPanel>
+
+        <!--<Grid>
+        
+
+        
+        
+        
+        
+        
+        
+        column definitions, 3 columns
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300" />
+        </Grid.ColumnDefinitions>
+
+        row definitions, 3 rows
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75" />
+            <RowDefinition Height="75" />
+            <RowDefinition Height="75" />
+            <RowDefinition Height="75" />
+            <RowDefinition Height="75" />
+            <RowDefinition Height="75"/>
+        </Grid.RowDefinitions>
+
+        key gen button
+        <Button
+            Style="{StaticResource ButtonStyle}"
+            Content="Key Generator"            
+            Grid.Row="0"
+            Command="{Binding ShowWindow}"
+            CommandParameter="KeyGenViewModel"
+            >
+        </Button>
+
+        
+        chords button
+        
+        <Button
+            Style="{StaticResource ButtonStyle}"
+            Content="Chords"
+            Grid.Row="1">
+        </Button>
+
+        
+        tabs button
+        
+        <Button
+            Style="{StaticResource ButtonStyle}"
+            Content="Tabs"
+            Grid.Row="2">
+        </Button>
+
+        
+        tuner button
+        
+        <Button
+            Style="{StaticResource ButtonStyle}"
+            Content="Tuner"
+            Grid.Row="3">
+        </Button>
+
+        
+        TBD
+        
+        <Button
+            Style="{StaticResource ButtonStyle}"
+            Content="TBD"
+            Grid.Row="4">
+        </Button>
+
+    </Grid>-->
+</Window>

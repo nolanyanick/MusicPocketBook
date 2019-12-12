@@ -1,0 +1,76 @@
+E:\CIT 255 - OOP\MusicPocketBook\MusicPocketBook\bin\Debug\MusicPocketBook.exe.config
+E:\CIT 255 - OOP\MusicPocketBook\MusicPocketBook\bin\Debug\MusicPocketBook.exe
+E:\CIT 255 - OOP\MusicPocketBook\MusicPocketBook\bin\Debug\MusicPocketBook.pdb
+E:\CIT 255 - OOP\MusicPocketBook\MusicPocketBook\bin\Debug\Crc32C.NET.dll
+E:\CIT 255 - OOP\MusicPocketBook\MusicPocketBook\bin\Debug\DnsClient.dll
+E:\CIT 255 - OOP\MusicPocketBook\MusicPocketBook\bin\Debug\MongoDB.Bson.dll
+E:\CIT 255 - OOP\MusicPocketBook\MusicPocketBook\bin\Debug\MongoDB.Driver.Core.dll
+E:\CIT 255 - OOP\MusicPocketBook\MusicPocketBook\bin\Debug\MongoDB.Driver.dll
+E:\CIT 255 - OOP\MusicPocketBook\MusicPocketBook\bin\Debug\SharpCompress.dll
+E:\CIT 255 - OOP\MusicPocketBook\MusicPocketBook\bin\Debug\Snappy.NET.dll
+E:\CIT 255 - OOP\MusicPocketBook\MusicPocketBook\bin\Debug\System.Buffers.dll
+E:\CIT 255 - OOP\MusicPocketBook\MusicPocketBook\bin\Debug\Crc32C.NET.xml
+E:\CIT 255 - OOP\MusicPocketBook\MusicPocketBook\bin\Debug\DnsClient.xml
+E:\CIT 255 - OOP\MusicPocketBook\MusicPocketBook\bin\Debug\MongoDB.Bson.xml
+E:\CIT 255 - OOP\MusicPocketBook\MusicPocketBook\bin\Debug\MongoDB.Driver.xml
+E:\CIT 255 - OOP\MusicPocketBook\MusicPocketBook\bin\Debug\MongoDB.Driver.Core.xml
+E:\CIT 255 - OOP\MusicPocketBook\MusicPocketBook\bin\Debug\Snappy.NET.xml
+E:\CIT 255 - OOP\MusicPocketBook\MusicPocketBook\bin\Debug\System.Buffers.xml
+E:\CIT 255 - OOP\MusicPocketBook\MusicPocketBook\obj\Debug\BaseView.g.cs
+E:\CIT 255 - OOP\MusicPocketBook\MusicPocketBook\obj\Debug\Views\HomeView.g.cs
+E:\CIT 255 - OOP\MusicPocketBook\MusicPocketBook\obj\Debug\Views\KeyGenView.g.cs
+E:\CIT 255 - OOP\MusicPocketBook\MusicPocketBook\obj\Debug\App.g.cs
+E:\CIT 255 - OOP\MusicPocketBook\MusicPocketBook\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\CIT 255 - OOP\MusicPocketBook\MusicPocketBook\obj\Debug\MusicPocketBook_MarkupCompile.cache
+E:\CIT 255 - OOP\MusicPocketBook\MusicPocketBook\obj\Debug\MusicPocketBook_MarkupCompile.lref
+E:\CIT 255 - OOP\MusicPocketBook\MusicPocketBook\obj\Debug\BaseView.baml
+E:\CIT 255 - OOP\MusicPocketBook\MusicPocketBook\obj\Debug\Views\HomeView.baml
+E:\CIT 255 - OOP\MusicPocketBook\MusicPocketBook\obj\Debug\Views\KeyGenView.baml
+E:\CIT 255 - OOP\MusicPocketBook\MusicPocketBook\obj\Debug\MusicPocketBook.g.resources
+E:\CIT 255 - OOP\MusicPocketBook\MusicPocketBook\obj\Debug\MusicPocketBook.Properties.Resources.resources
+E:\CIT 255 - OOP\MusicPocketBook\MusicPocketBook\obj\Debug\MusicPocketBook.csproj.GenerateResource.cache
+E:\CIT 255 - OOP\MusicPocketBook\MusicPocketBook\obj\Debug\MusicPocketBook.csproj.CopyComplete
+E:\CIT 255 - OOP\MusicPocketBook\MusicPocketBook\obj\Debug\MusicPocketBook.exe
+E:\CIT 255 - OOP\MusicPocketBook\MusicPocketBook\obj\Debug\MusicPocketBook.pdb
+E:\CIT 255 - OOP\MusicPocketBook\MusicPocketBook\obj\Debug\MusicPocketBook.csprojAssemblyReference.cache
+E:\CIT 255 - OOP\MusicPocketBook\MusicPocketBook\bin\Debug\DAL\SeedData.cs
+E:\CIT 255 - OOP\MusicPocketBook\MusicPocketBook\obj\Debug\Views\ChordView.g.cs
+E:\CIT 255 - OOP\MusicPocketBook\MusicPocketBook\obj\Debug\Views\ChordView.baml
+C:\Users\nolan\OneDrive\Desktop\MusicPocketBook\MusicPocketBook\bin\Debug\DAL\SeedData.cs
+C:\Users\nolan\OneDrive\Desktop\MusicPocketBook\MusicPocketBook\bin\Debug\MusicPocketBook.exe.config
+C:\Users\nolan\OneDrive\Desktop\MusicPocketBook\MusicPocketBook\bin\Debug\MusicPocketBook.exe
+C:\Users\nolan\OneDrive\Desktop\MusicPocketBook\MusicPocketBook\bin\Debug\MusicPocketBook.pdb
+C:\Users\nolan\OneDrive\Desktop\MusicPocketBook\MusicPocketBook\bin\Debug\Crc32C.NET.dll
+C:\Users\nolan\OneDrive\Desktop\MusicPocketBook\MusicPocketBook\bin\Debug\DnsClient.dll
+C:\Users\nolan\OneDrive\Desktop\MusicPocketBook\MusicPocketBook\bin\Debug\MongoDB.Bson.dll
+C:\Users\nolan\OneDrive\Desktop\MusicPocketBook\MusicPocketBook\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\nolan\OneDrive\Desktop\MusicPocketBook\MusicPocketBook\bin\Debug\MongoDB.Driver.dll
+C:\Users\nolan\OneDrive\Desktop\MusicPocketBook\MusicPocketBook\bin\Debug\SharpCompress.dll
+C:\Users\nolan\OneDrive\Desktop\MusicPocketBook\MusicPocketBook\bin\Debug\Snappy.NET.dll
+C:\Users\nolan\OneDrive\Desktop\MusicPocketBook\MusicPocketBook\bin\Debug\System.Buffers.dll
+C:\Users\nolan\OneDrive\Desktop\MusicPocketBook\MusicPocketBook\bin\Debug\Crc32C.NET.xml
+C:\Users\nolan\OneDrive\Desktop\MusicPocketBook\MusicPocketBook\bin\Debug\DnsClient.xml
+C:\Users\nolan\OneDrive\Desktop\MusicPocketBook\MusicPocketBook\bin\Debug\MongoDB.Bson.xml
+C:\Users\nolan\OneDrive\Desktop\MusicPocketBook\MusicPocketBook\bin\Debug\MongoDB.Driver.xml
+C:\Users\nolan\OneDrive\Desktop\MusicPocketBook\MusicPocketBook\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\nolan\OneDrive\Desktop\MusicPocketBook\MusicPocketBook\bin\Debug\Snappy.NET.xml
+C:\Users\nolan\OneDrive\Desktop\MusicPocketBook\MusicPocketBook\bin\Debug\System.Buffers.xml
+C:\Users\nolan\OneDrive\Desktop\MusicPocketBook\MusicPocketBook\obj\Debug\MusicPocketBook.csprojAssemblyReference.cache
+C:\Users\nolan\OneDrive\Desktop\MusicPocketBook\MusicPocketBook\obj\Debug\BaseView.g.cs
+C:\Users\nolan\OneDrive\Desktop\MusicPocketBook\MusicPocketBook\obj\Debug\Views\ChordView.g.cs
+C:\Users\nolan\OneDrive\Desktop\MusicPocketBook\MusicPocketBook\obj\Debug\Views\HomeView.g.cs
+C:\Users\nolan\OneDrive\Desktop\MusicPocketBook\MusicPocketBook\obj\Debug\Views\KeyGenView.g.cs
+C:\Users\nolan\OneDrive\Desktop\MusicPocketBook\MusicPocketBook\obj\Debug\App.g.cs
+C:\Users\nolan\OneDrive\Desktop\MusicPocketBook\MusicPocketBook\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\nolan\OneDrive\Desktop\MusicPocketBook\MusicPocketBook\obj\Debug\MusicPocketBook_MarkupCompile.cache
+C:\Users\nolan\OneDrive\Desktop\MusicPocketBook\MusicPocketBook\obj\Debug\MusicPocketBook_MarkupCompile.lref
+C:\Users\nolan\OneDrive\Desktop\MusicPocketBook\MusicPocketBook\obj\Debug\BaseView.baml
+C:\Users\nolan\OneDrive\Desktop\MusicPocketBook\MusicPocketBook\obj\Debug\Views\ChordView.baml
+C:\Users\nolan\OneDrive\Desktop\MusicPocketBook\MusicPocketBook\obj\Debug\Views\HomeView.baml
+C:\Users\nolan\OneDrive\Desktop\MusicPocketBook\MusicPocketBook\obj\Debug\Views\KeyGenView.baml
+C:\Users\nolan\OneDrive\Desktop\MusicPocketBook\MusicPocketBook\obj\Debug\MusicPocketBook.g.resources
+C:\Users\nolan\OneDrive\Desktop\MusicPocketBook\MusicPocketBook\obj\Debug\MusicPocketBook.Properties.Resources.resources
+C:\Users\nolan\OneDrive\Desktop\MusicPocketBook\MusicPocketBook\obj\Debug\MusicPocketBook.csproj.GenerateResource.cache
+C:\Users\nolan\OneDrive\Desktop\MusicPocketBook\MusicPocketBook\obj\Debug\MusicPocketBook.csproj.CopyComplete
+C:\Users\nolan\OneDrive\Desktop\MusicPocketBook\MusicPocketBook\obj\Debug\MusicPocketBook.exe
+C:\Users\nolan\OneDrive\Desktop\MusicPocketBook\MusicPocketBook\obj\Debug\MusicPocketBook.pdb
