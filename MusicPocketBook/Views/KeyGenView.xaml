@@ -224,10 +224,10 @@
             Height="150">
             <StackPanel Orientation="Horizontal">
 
-
                 <!--name and id input controls-->
                 <StackPanel VerticalAlignment="Center">
 
+                    <!--ID-->
                     <StackPanel Orientation="Horizontal">
                         <Label   
                             HorizontalAlignment="Right"
@@ -251,6 +251,7 @@
                    
                     </StackPanel>
 
+                    <!--NAME-->
                     <StackPanel Orientation="Horizontal">
                         <Label   
                                 HorizontalAlignment="Left"
@@ -278,17 +279,15 @@
                     <!--edit/add chord family panel-->
                     <StackPanel Orientation="Horizontal">
                         <Label          
-                    HorizontalAlignment="Left"
-                    Content="Chords: "
-                    FontSize="15"
-                    FontWeight="Thin"
-                    Foreground="RoyalBlue"
-                    Margin="0,0,0,0"/>
- 
+                            HorizontalAlignment="Left"
+                            Content="Chords: "
+                            FontSize="15"
+                            FontWeight="Thin"
+                            Foreground="RoyalBlue"
+                            Margin="0,0,0,0"
+                        />
 
-                        
-                        <StackPanel
-                        Orientation="Horizontal" VerticalAlignment="Center">
+                        <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
                             <ListBox SelectionChanged="ListBox_SelectionChanged" ItemsSource="{Binding AllChords}" SelectedItem="{Binding ChordsToAddOrEdit[0], UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource subListBoxStyle}">
                                 <ListBox.ItemTemplate>
                                     <DataTemplate>

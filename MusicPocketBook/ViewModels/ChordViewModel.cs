@@ -39,19 +39,6 @@ namespace MusicPocketBook.ViewModels
 
         #region FIELDS
 
-        private bool _idReadOnly;
-
-        public bool IdReadOnly
-        {
-            get { return _idReadOnly; }
-            set 
-            { 
-                _idReadOnly = value;
-                OnPropertyChanged("IdReadOnly");
-            }
-        }
-
-
         private IMongoDatabase _db;
         private string _connectionString;
         private List<Chord> _chordsCollection;
@@ -64,7 +51,8 @@ namespace MusicPocketBook.ViewModels
         private bool _showSaveButton;
         private bool _showAddButton;
         private List<Chord.Type> _allChordTypes;
-        private OperationStatus _operationStatus; 
+        private OperationStatus _operationStatus;
+        private bool _idReadOnly;
 
         #endregion
 
@@ -171,6 +159,15 @@ namespace MusicPocketBook.ViewModels
             set { _allKeys = value; }
         }
 
+        public bool IdReadOnly
+        {
+            get { return _idReadOnly; }
+            set
+            {
+                _idReadOnly = value;
+                OnPropertyChanged("IdReadOnly");
+            }
+        }
 
         #endregion
 
@@ -184,11 +181,6 @@ namespace MusicPocketBook.ViewModels
             Db = client.GetDatabase("pocketBookData");
 
             _collection = Db.GetCollection<Chord>("chords");
-
-            if (_collection.CountDocuments(Builders<Chord>.Filter.Empty) == 0)
-            {
-                _collection.InsertMany(SeedData.GenerateListOfChords());
-            }
 
             _chordsCollection = _collection.Find(Builders<Chord>.Filter.Empty).ToList();
         }

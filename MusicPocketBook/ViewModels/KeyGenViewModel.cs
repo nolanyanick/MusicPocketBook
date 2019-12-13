@@ -29,11 +29,11 @@ namespace MusicPocketBook.ViewModels
 
         private IMongoDatabase _db;
         private string _connectionString;
-        private ObservableCollection<Models.Keys> _keysCollection;
-        private IMongoCollection<Models.Keys> _collection;
-        private Models.Keys _selectedKey;
+        private ObservableCollection<Keys> _keysCollection;
+        private IMongoCollection<Keys> _collection;
+        private Keys _selectedKey;
         private KeyBusiness _keyBusiness;
-        private Models.Keys _addEditKey;
+        private Keys _addEditKey;
         private List<Chord> _allChords;
         private List<Chord> _chordsToAddOrEdit;
         private bool _showSaveButton;
@@ -150,11 +150,6 @@ namespace MusicPocketBook.ViewModels
             Db = client.GetDatabase("pocketBookData");
 
             _collection = Db.GetCollection<Models.Keys>("keys");
-
-            if (_collection.CountDocuments(Builders<Models.Keys>.Filter.Empty) == 0)
-            {
-                _collection.InsertMany(SeedData.GenerateListOfKeys());
-            }
 
             _keysCollection = new ObservableCollection<Keys>(_collection.Find(Builders<Keys>.Filter.Empty).ToList());
         }

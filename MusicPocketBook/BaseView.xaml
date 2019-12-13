@@ -27,65 +27,12 @@
             <Setter Property="FontWeight" Value="Thin"/>
             <Setter Property="Background" Value="White"/>
             <Setter Property="Foreground" Value="RoyalBlue"/>
-
-            <Style.Triggers>
-                <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background">
-                        <Setter.Value>
-                            <SolidColorBrush Color="Red"/>
-                        </Setter.Value>
-                    </Setter>
-                    <Setter Property="Foreground" Value="White"/>
-                </Trigger>
-            </Style.Triggers>
         </Style>
     </Window.Resources>
     <Grid
         Background="WhiteSmoke"
         >
-    <DockPanel>
-
-            <!--<StackPanel>
-                <ItemsControl ItemsSource="{Binding PageViewModels[0]}">
-                    <Button Content="Home"
-                    Command="{Binding DataContext.ChangePageCommand, RelativeSource={RelativeSource AncestorType={x:Type Window}}}"
-                    CommandParameter="{Binding }"
-                    Style="{StaticResource ButtonStyle}"
-                    Margin="0,0,0,0"
-                    Height="20"
-                    BorderThickness="0,0,0.5,0.5"
-                    BorderBrush="RoyalBlue"
-                                
-                    />
-                </ItemsControl>
-                
-                <ItemsControl ItemsSource="{Binding PageViewModels[1]}">
-                <Button Content="Key Generator"
-                    Command="{Binding DataContext.ChangePageCommand, RelativeSource={RelativeSource AncestorType={x:Type Window}}}"
-                    CommandParameter="{Binding }"
-                    Style="{StaticResource ButtonStyle}"
-                    Margin="0,0,0,0"
-                    Height="171"
-                    BorderThickness="0,0,0.5,0.5"
-                    BorderBrush="RoyalBlue"
-                                
-                    />
-                </ItemsControl>
-
-                <ItemsControl ItemsSource="{Binding PageViewModels[2]}">
-                <Button Content="Chords"
-                    Command="{Binding DataContext.ChangePageCommand, RelativeSource={RelativeSource AncestorType={x:Type Window}}}"
-                    CommandParameter="{Binding }"
-                    Style="{StaticResource ButtonStyle}"
-                    Margin="0,0,0,0"
-                    Height="172"
-                    BorderThickness="0,0,0.5,0.5"
-                    BorderBrush="RoyalBlue"
-                                
-                    />
-                </ItemsControl>
-            </StackPanel>-->
-
+        <DockPanel>
             <Border DockPanel.Dock="Left" BorderBrush="RoyalBlue" BorderThickness="0,0,.5,0" Width="110">
                 <ItemsControl ItemsSource="{Binding PageViewModels}">
                 <ItemsControl.ItemTemplate>
